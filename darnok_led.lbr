@@ -155,7 +155,10 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <library>
-<description>LED components</description>
+<description>LED components
+
+Licensed under the Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+Copyright 2020 by Konrad Rzeszutek Wilk &lt;konrad@darnok.org&gt;</description>
 <packages>
 <package name="HDSP-B0XE" urn="urn:adsk.eagle:footprint:21769916/1">
 <description>HDSP-B0XE. 51mm x 19mm</description>

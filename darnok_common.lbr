@@ -155,7 +155,10 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <library>
-<description>Common parts</description>
+<description>Common parts.
+
+Licensed under the Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+Copyright 2020 by Konrad Rzeszutek Wilk &lt;konrad@darnok.org&gt;</description>
 <packages>
 <package name="RESISTOR" urn="urn:adsk.eagle:footprint:21769917/1">
 <pad name="R_1" x="0" y="0" drill="0.762" diameter="1.778"/>

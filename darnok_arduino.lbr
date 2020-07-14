@@ -155,7 +155,10 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <library>
-<description>Arduino boards and CPUs</description>
+<description>Arduino boards and CPUs
+
+Licensed under the Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+Copyright 2020 by Konrad Rzeszutek Wilk &lt;konrad@darnok.org&gt;</description>
 <packages>
 <package name="ARDUINOR3" urn="urn:adsk.eagle:footprint:21769979/2">
 <description>The new Arduino R3 'classic' adds duplicate I2C pins and an IORef pin (and an unused pin). 
