@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -160,24 +160,26 @@
 Licensed under the Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
 Copyright 2020 by Konrad Rzeszutek Wilk &lt;konrad@darnok.org&gt;</description>
 <packages>
-<package name="HDSP-B0XE" urn="urn:adsk.eagle:footprint:21769916/1">
-<description>HDSP-B0XE. 51mm x 19mm</description>
+<package name="HDSP-B0XE" urn="urn:adsk.eagle:footprint:21769916/1" locally_modified="yes">
+<description>HDSP-B0XE. 51mm x 19mm
+
+v2: Fixed the drill hole</description>
 <wire x1="25.5" y1="9.5" x2="-25.5" y2="9.5" width="0.127" layer="21"/>
 <wire x1="-25.5" y1="9.5" x2="-25.5" y2="-9.5" width="0.127" layer="21"/>
 <wire x1="-25.5" y1="-9.5" x2="25.5" y2="-9.5" width="0.127" layer="21"/>
 <wire x1="25.5" y1="-9.5" x2="25.5" y2="9.5" width="0.127" layer="21"/>
-<pad name="PIN$4" x="0" y="-7.62" drill="0.6" rot="R90"/>
-<pad name="PIN$3" x="-2.54" y="-7.62" drill="0.6" rot="R90"/>
-<pad name="PIN$5" x="2.54" y="-7.62" drill="0.6" rot="R90"/>
-<pad name="PIN$6" x="5.08" y="-7.62" drill="0.6" rot="R90"/>
-<pad name="PIN$7" x="7.62" y="-7.62" drill="0.6" rot="R90"/>
-<pad name="PIN$1" x="-7.62" y="-7.62" drill="0.6" shape="square"/>
-<pad name="PIN$2" x="-5.08" y="-7.62" drill="0.6"/>
-<pad name="PIN$10" x="0" y="7.62" drill="0.6"/>
-<pad name="PIN$11" x="-2.54" y="7.62" drill="0.6"/>
-<pad name="PIN12" x="-5.08" y="7.62" drill="0.6"/>
-<pad name="PIN$9" x="2.54" y="7.62" drill="0.6"/>
-<pad name="PIN$8" x="5.08" y="7.62" drill="0.6"/>
+<pad name="PIN$4" x="0" y="-7.62" drill="0.85" diameter="1.6764" rot="R90"/>
+<pad name="PIN$3" x="-2.54" y="-7.62" drill="0.85" diameter="1.6764" rot="R90"/>
+<pad name="PIN$5" x="2.54" y="-7.62" drill="0.85" diameter="1.6764" rot="R90"/>
+<pad name="PIN$6" x="5.08" y="-7.62" drill="0.85" diameter="1.6764" rot="R90"/>
+<pad name="PIN$7" x="7.62" y="-7.62" drill="0.85" diameter="1.6764" rot="R90"/>
+<pad name="PIN$1" x="-7.62" y="-7.62" drill="0.85" diameter="1.6764" shape="square"/>
+<pad name="PIN$2" x="-5.08" y="-7.62" drill="0.85" diameter="1.6764"/>
+<pad name="PIN$10" x="0" y="7.62" drill="0.85" diameter="1.6764"/>
+<pad name="PIN$11" x="-2.54" y="7.62" drill="0.85" diameter="1.6764"/>
+<pad name="PIN12" x="-5.08" y="7.62" drill="0.85" diameter="1.6764"/>
+<pad name="PIN$9" x="2.54" y="7.62" drill="0.85" diameter="1.6764"/>
+<pad name="PIN$8" x="5.08" y="7.62" drill="0.85" diameter="1.6764"/>
 <text x="-8.2" y="-0.8" size="2" layer="25">HDSP-B04x</text>
 <text x="-13.97" y="-8.89" size="1.27" layer="21">PIN 1</text>
 <text x="6.35" y="7.62" size="1.27" layer="21">PIN 8</text>
