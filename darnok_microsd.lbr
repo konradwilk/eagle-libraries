@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>Common MicroSD.
+&lt;br&gt;
+&lt;p&gt;
+Licensed under the Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+&lt;br&gt;
+Copyright 2020 by Konrad Rzeszutek Wilk &amp;lt;konrad@darnok.org&amp;gt;&lt;/p&gt;</description>
+<packages>
+<package name="114-00841-68">
+<smd name="CD_SW_1" x="5.57" y="4.96" dx="1" dy="1.55" layer="1"/>
+<wire x1="5.97" y1="5.76" x2="5.97" y2="-9.59" width="0.127" layer="21"/>
+<smd name="GND$2" x="5.57" y="-5.74" dx="1.5" dy="1.5" layer="1"/>
+<smd name="GND$1" x="5.97" y="2.61" dx="0.8" dy="1.4" layer="1"/>
+<wire x1="5.97" y1="5.76" x2="-5.98" y2="5.76" width="0.127" layer="21"/>
+<wire x1="-5.98" y1="5.76" x2="-5.98" y2="-7.04" width="0.127" layer="21"/>
+<smd name="GND$3" x="-5.88" y="-5.74" dx="1.5" dy="1.5" layer="1"/>
+<smd name="DATA_1" x="-4.58" y="-5.89" dx="0.7" dy="1.75" layer="1"/>
+<smd name="DATA_OUT" x="-3.48" y="-5.89" dx="0.7" dy="1.75" layer="1"/>
+<smd name="VSS" x="-2.38" y="-5.89" dx="0.7" dy="1.75" layer="1"/>
+<smd name="SCLK" x="-1.28" y="-5.89" dx="0.7" dy="1.75" layer="1"/>
+<smd name="VDD" x="-0.18" y="-5.89" dx="0.7" dy="1.75" layer="1"/>
+<smd name="DATA_IN" x="0.92" y="-5.89" dx="0.7" dy="1.75" layer="1"/>
+<smd name="CS" x="2.02" y="-5.89" dx="0.7" dy="1.75" layer="1"/>
+<smd name="DATA_2" x="3.12" y="-5.89" dx="0.7" dy="1.75" layer="1"/>
+<smd name="GND$4" x="-5.98" y="1.86" dx="0.8" dy="1.5" layer="1"/>
+<smd name="CD_SW_2" x="-5.63" y="3.36" dx="1.55" dy="1" layer="1"/>
+<rectangle x1="-4.83" y1="-0.44" x2="3.62" y2="1.06" layer="39"/>
+<rectangle x1="-1.88" y1="3.36" x2="0.62" y2="4.86" layer="39"/>
+<wire x1="-5.98" y1="-7.04" x2="-5.98" y2="-9.54" width="0.127" layer="21"/>
+<wire x1="-5.98" y1="-9.54" x2="-5.68" y2="-9.84" width="0.127" layer="21" curve="90"/>
+<wire x1="-5.68" y1="-9.84" x2="5.72" y2="-9.84" width="0.127" layer="21"/>
+<wire x1="5.72" y1="-9.84" x2="5.97" y2="-9.59" width="0.127" layer="21" curve="90"/>
+<wire x1="-5.98" y1="-7.04" x2="5.92" y2="-7.04" width="0.127" layer="21"/>
+<text x="-2.92" y="-1.86" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.92" y="-4.4" size="1.016" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="MICROSD">
+<wire x1="-12.7" y1="22.86" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-22.86" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="22.86" x2="-12.7" y2="22.86" width="0.254" layer="94"/>
+<pin name="CARD_DETECT_1" x="-17.78" y="20.32" visible="pin" length="middle" direction="out"/>
+<pin name="CARD_DETECT_2" x="-17.78" y="17.78" visible="pin" length="middle"/>
+<pin name="DATA_OUT" x="-17.78" y="12.7" visible="pin" length="middle"/>
+<pin name="DATA_IN" x="-17.78" y="10.16" visible="pin" length="middle"/>
+<pin name="SCLK" x="-17.78" y="7.62" visible="pin" length="middle"/>
+<pin name="CS" x="-17.78" y="5.08" visible="pin" length="middle"/>
+<pin name="DATA_1" x="-17.78" y="2.54" visible="pin" length="middle"/>
+<pin name="DATA_2" x="-17.78" y="0" visible="pin" length="middle"/>
+<pin name="VDD" x="-17.78" y="-5.08" visible="pin" length="middle" direction="pwr"/>
+<pin name="VSS" x="-17.78" y="-7.62" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND$1" x="-17.78" y="-12.7" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND$2" x="-17.78" y="-15.24" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND$3" x="-17.78" y="-17.78" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND$4" x="-17.78" y="-20.32" visible="pin" length="middle" direction="pwr"/>
+<text x="-5.08" y="25.4" size="1.778" layer="95" ratio="14">&gt;NAME</text>
+<text x="-5.08" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="114-00841-68">
+<description>&lt;h3&gt;Amphenol MicroSD Push Pull&lt;/h3&gt;
+
+Data sheet is available at &lt;a href="
+https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/114-00841-68.pdf"&gt;here&lt;/a&gt;.</description>
+<gates>
+<gate name="A" symbol="MICROSD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="114-00841-68">
+<connects>
+<connect gate="A" pin="CARD_DETECT_1" pad="CD_SW_1"/>
+<connect gate="A" pin="CARD_DETECT_2" pad="CD_SW_2"/>
+<connect gate="A" pin="CS" pad="CS"/>
+<connect gate="A" pin="DATA_1" pad="DATA_1"/>
+<connect gate="A" pin="DATA_2" pad="DATA_2"/>
+<connect gate="A" pin="DATA_IN" pad="DATA_IN"/>
+<connect gate="A" pin="DATA_OUT" pad="DATA_OUT"/>
+<connect gate="A" pin="GND$1" pad="GND$1"/>
+<connect gate="A" pin="GND$2" pad="GND$2"/>
+<connect gate="A" pin="GND$3" pad="GND$3"/>
+<connect gate="A" pin="GND$4" pad="GND$4"/>
+<connect gate="A" pin="SCLK" pad="SCLK"/>
+<connect gate="A" pin="VDD" pad="VDD"/>
+<connect gate="A" pin="VSS" pad="VSS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
