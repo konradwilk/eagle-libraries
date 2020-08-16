@@ -21,3 +21,6 @@ from Adafruit (CC BY-SA 3.0)
 
 from SparkFun-Sensors (CC BY-SA 4.0)
 
+## ATMEGA328P
+
+from SparkFun-IC-Microcentrollers (modified the ZIF28 socket).
