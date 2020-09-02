@@ -24,3 +24,8 @@ from SparkFun-Sensors (CC BY-SA 4.0)
 ## ATMEGA328P
 
 from SparkFun-IC-Microcentrollers (modified the ZIF28 socket).
+
+## 4050
+
+from 40xx and ref-packages that came with Eagle software.
+Modifications are under (CC BY-SA 4.0)
