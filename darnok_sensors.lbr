@@ -218,7 +218,7 @@ Copyright 2020 by Konrad Rzeszutek Wilk &amp;lt;konrad@darnok.org&amp;gt;&lt;/p<
 <wire x1="5.08" y1="5.334" x2="3.81" y2="5.334" width="0.254" layer="94"/>
 <wire x1="1.27" y1="2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
 <pin name="A$1" x="-6.35" y="0" visible="off" length="middle"/>
-<pin name="K$1" x="6.35" y="0" visible="off" length="middle" direction="out" rot="R180"/>
+<pin name="K$1" x="6.35" y="0" visible="off" length="middle" direction="hiz" rot="R180"/>
 <text x="-6.35" y="3.81" size="1.27" layer="95">&gt;NAME</text>
 <text x="-6.35" y="-3.81" size="1.016" layer="96">&gt;VALUES</text>
 <wire x1="0" y1="2.794" x2="2.54" y2="5.334" width="0.254" layer="94"/>
@@ -242,7 +242,7 @@ Copyright 2020 by Konrad Rzeszutek Wilk &amp;lt;konrad@darnok.org&amp;gt;&lt;/p<
 <text x="5.588" y="0.508" size="1.27" layer="94">C</text>
 <text x="-7.366" y="0.508" size="1.27" layer="94">E</text>
 <pin name="E$1" x="-10.668" y="0" visible="off" length="middle" direction="in"/>
-<pin name="C$1" x="9.906" y="0" visible="off" length="middle" direction="out" rot="R180"/>
+<pin name="C$1" x="9.906" y="0" visible="off" length="middle" direction="hiz" rot="R180"/>
 <text x="-8.89" y="2.54" size="1.27" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.016" layer="96">&gt;VALUES</text>
 <wire x1="-2.794" y1="0.254" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
