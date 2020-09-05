@@ -110,10 +110,10 @@ Copyright 2020 by Konrad Rzeszutek Wilk &amp;lt;konrad@darnok.org&amp;gt;&lt;/p&
 <pin name="DATA_2" x="-17.78" y="0" visible="pin" length="middle"/>
 <pin name="VDD" x="-17.78" y="-5.08" visible="pin" length="middle" direction="pwr"/>
 <pin name="VSS" x="-17.78" y="-7.62" visible="pin" length="middle" direction="pwr"/>
-<pin name="GND$1" x="-17.78" y="-12.7" visible="pin" length="middle" direction="pwr"/>
-<pin name="GND$2" x="-17.78" y="-15.24" visible="pin" length="middle" direction="pwr"/>
-<pin name="GND$3" x="-17.78" y="-17.78" visible="pin" length="middle" direction="pwr"/>
-<pin name="GND$4" x="-17.78" y="-20.32" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND@1" x="-17.78" y="-12.7" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND@2" x="-17.78" y="-15.24" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND@3" x="-17.78" y="-17.78" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND@4" x="-17.78" y="-20.32" visible="pin" length="middle" direction="pwr"/>
 <text x="-5.08" y="25.4" size="1.778" layer="95" ratio="14">&gt;NAME</text>
 <text x="-5.08" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
@@ -137,10 +137,10 @@ https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/114-00841-68.pdf"&gt
 <connect gate="A" pin="DATA_2" pad="DATA_2"/>
 <connect gate="A" pin="DATA_IN" pad="DATA_IN"/>
 <connect gate="A" pin="DATA_OUT" pad="DATA_OUT"/>
-<connect gate="A" pin="GND$1" pad="GND$1"/>
-<connect gate="A" pin="GND$2" pad="GND$2"/>
-<connect gate="A" pin="GND$3" pad="GND$3"/>
-<connect gate="A" pin="GND$4" pad="GND$4"/>
+<connect gate="A" pin="GND@1" pad="GND$1"/>
+<connect gate="A" pin="GND@2" pad="GND$2"/>
+<connect gate="A" pin="GND@3" pad="GND$3"/>
+<connect gate="A" pin="GND@4" pad="GND$4"/>
 <connect gate="A" pin="SCLK" pad="SCLK"/>
 <connect gate="A" pin="VDD" pad="VDD"/>
 <connect gate="A" pin="VSS" pad="VSS"/>
