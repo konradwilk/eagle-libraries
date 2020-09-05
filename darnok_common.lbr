@@ -207,7 +207,7 @@ Copyright 2020 by Konrad Rzeszutek Wilk &lt;konrad@darnok.org&gt;</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="RESISTOR">
+<deviceset name="RESISTOR" prefix="R">
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="-12.7" y="0"/>
 </gates>
