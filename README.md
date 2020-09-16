@@ -29,3 +29,8 @@ from SparkFun-IC-Microcentrollers (modified the ZIF28 socket).
 
 from 40xx and ref-packages that came with Eagle software.
 Modifications are under (CC BY-SA 4.0)
+
+## RESONATOR
+
+from Arduino UNO reference code. Which has AS-IS license.
+Modifications are under (CC BY-SA 4.0)
